@@ -18,6 +18,28 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 40px 20px;
+    position: relative;
+}
+
+/* Language switcher */
+.lang-switcher {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    padding: 8px 16px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    color: #333;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: all 0.2s ease;
+    background-color: #fff;
+}
+
+.lang-switcher:hover {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
 }
 
 /* Header */
@@ -286,6 +308,13 @@ footer {
         padding: 30px 15px;
     }
 
+    .lang-switcher {
+        top: 30px;
+        right: 15px;
+        padding: 6px 12px;
+        font-size: 0.85em;
+    }
+
     header h1 {
         font-size: 2em;
     }
@@ -318,6 +347,13 @@ footer {
 }
 
 @media (max-width: 480px) {
+    .lang-switcher {
+        position: static;
+        display: block;
+        margin: 0 auto 20px;
+        width: fit-content;
+    }
+
     header h1 {
         font-size: 1.8em;
     }

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farit Galeev</title>
+    <meta name="description" content="個人履歴書とポートフォリオ">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="lang-switcher">English</a>
+
+        <header>
+            <img src="assets/profile.jpg" alt="プロフィール写真" class="profile-photo">
+            <h1>Farit Galeev</h1>
+            <p class="title">機械学習エンジニア / データサイエンティスト（検索、推薦システム、LLM）</p>
+            <p class="location">東京、日本</p>
+
+            <div class="social-links">
+                <a href="https://github.com/HiGal" target="_blank" title="GitHub">
+                    <svg width="24" height="24" viewBox="0 0 16 16" fill="currentColor">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                </a>
+                <a href="https://linkedin.com/in/farit-galeev-2a658118a" target="_blank" title="LinkedIn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                    </svg>
+                </a>
+                <a href="https://medium.com/@f.galeev.business" target="_blank" title="Medium">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
+                    </svg>
+                </a>
+                <a href="#" id="email-link" title="メール" onclick="revealEmail(); return false;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                        <polyline points="22,6 12,13 2,6"/>
+                    </svg>
+                </a>
+            </div>
+        </header>
+
+        <main>
+            <section class="bio">
+                <h2>概要</h2>
+                <p>5年以上の経験を持つ機械学習エンジニアとして、検索、推薦システム、需要予測、生成AIにおける本番環境のMLシステム構築を専門としています。数百万人規模のユーザーを持つ消費者向けマーケットプレイスにおいて、測定可能なビジネスインパクトを実現してきた実績があります。問題の定義、データパイプライン、モデル設計、デプロイ、実験まで、エンドツーエンドのオーナーシップを得意としています。エンジニアのメンタリングや採用面接、プロダクトおよびビジネスステークホルダーとの協業の経験も豊富です。</p>
+            </section>
+
+            <section class="timeline">
+                <h2>職務経歴</h2>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <img src="assets/logos/rakuten.png" alt="Rakuten" class="company-logo">
+                        <div>
+                            <h3>データサイエンティスト</h3>
+                            <p class="company">Rakuten</p>
+                            <p class="period">東京、日本 | 2025年6月 – 現在</p>
+                        </div>
+                    </div>
+                    <p><em>Rakutenの内部クラウドプラットフォームであるOneCloud向けの異常検知システムの開発に従事。スケーラブルで本番グレードの時系列監視に注力。</em></p>
+                    <ul>
+                        <li>大規模クラウドインフラメトリクスに適した異常検知アプローチの研究と評価を実施。</li>
+                        <li>基盤となる時系列モデル（ToTo、TiRex、Chronos）の実験と最適化を行い、検知品質と堅牢性を向上。</li>
+                        <li>OneCloudメトリクスデータの効率的な収集、変換、提供のためのデータパイプラインとストレージスキーマを設計・実装。</li>
+                        <li>低レイテンシーCPU推論のために基盤モデルを最適化し、サービング コストを削減しスループットを向上。</li>
+                        <li>NVIDIA Triton Inference Serverを使用してモデルを本番サービング用に準備・デプロイし、既存のプラットフォームスタックに統合。</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <img src="assets/logos/uzum.png" alt="Uzum" class="company-logo">
+                        <div>
+                            <h3>機械学習エンジニア、推薦システム</h3>
+                            <p class="company">Uzum</p>
+                            <p class="period">タシケント、ウズベキスタン | 2023年4月 – 2025年5月</p>
+                        </div>
+                    </div>
+                    <p><em>Uzum Marketは、ウズベキスタン最大のeコマースマーケットプレイスで、月間アクティブユーザー数は1,700万人以上（成人人口の約50％）、市場シェアは70％以上。15億ドルの評価額を持つUzumエコシステムの一部であり、ウズベキスタン初のユニコーン企業。</em></p>
+                    <ul>
+                        <li>商品詳細ページ向けのパーソナライズされたランキングモデルを設計・デプロイし、<strong>コンバージョン率+8.8％</strong>、<strong>ARPU+10.2％</strong>の向上を達成。</li>
+                        <li>プッシュ通知のパーソナライゼーションモデルを構築し、登録ユーザーの<strong>開封率+68％</strong>、<strong>プッシュ通知からの購入コンバージョン+83％</strong>、未登録ユーザーのプッシュ通知からの<strong>ARPU+63％</strong>の向上を実現。</li>
+                        <li>アナリストとエンジニアがSQLクエリを生成できるよう<strong>LLMベースのRAGエージェント</strong>を開発し、データ取得速度を大幅に向上させ、手動クエリ作成の負荷を削減。</li>
+                        <li>大規模な推薦後処理パイプラインを<strong>Spark</strong>に移行して最適化し、計算コストを削減しスループットを向上。</li>
+                        <li>チーム全体に<strong>MLシステム設計のベストプラクティス</strong>（ドキュメンテーション標準、スケーラビリティ考慮事項、チーム間協業パターン）の採用を推進。</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <img src="assets/logos/steelperlot.png" alt="Steel Perlot" class="company-logo">
+                        <div>
+                            <h3>シニア機械学習エンジニア</h3>
+                            <p class="company">Steel Perlot</p>
+                            <p class="period">マウンテンビュー、カリフォルニア州、アメリカ（リモート） | 2022年12月 – 2023年6月</p>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>CLIPSegを使用した<strong>自然言語ガイド付き画像編集</strong>を実装し、テキストプロンプトによる細かい画像修正を可能に。</li>
+                        <li>拡散モデルのパーソナライゼーション（<strong>LoRA</strong>、<strong>Textual Inversion</strong>など）を探求し、限られた計算リソースでカスタマイゼーション品質を向上。</li>
+                        <li><strong>Stable Diffusion</strong>の広範な実験を実施：ネガティブプロンプト戦略、美的スコアリング、CLIPの特徴とUMAPを使用した画像クラスタリングを改善。</li>
+                        <li>高度な<strong>プロンプトエンジニアリング</strong>戦略を設計し、テキストから画像への整合性と品質に対する修飾子の影響を評価。</li>
+                        <li>効率的な推論のための<strong>トークンマージ</strong>を実装し、視覚品質を維持しながらGPUメモリ使用量とレイテンシーを削減。</li>
+                        <li>ファインチューニング実験を主導し、パーソナライズされた画像生成技術の限界を分析して、プロダクトと研究の選択を導いた。</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <img src="assets/logos/mm.png" alt="Magnit Market" class="company-logo">
+                        <div>
+                            <h3>機械学習エンジニア</h3>
+                            <p class="company">Magnit Market</p>
+                            <p class="period">カザン、ロシア | 2021年4月 – 2023年4月</p>
+                        </div>
+                    </div>
+                    <p><em>Magnit Market（旧KazanExpress）は、2017年に設立された全国的なeコマースマーケットプレイスで、ロシア全土の数百万人のユーザーにサービスを提供。2023年にMagnit（ロシア第2位の小売業者）に買収され、現在275都市に4,600以上のピックアップポイントを運営。</em></p>
+                    <p><strong>検索チーム（2021年4月 – 2023年4月）</strong></p>
+                    <ul>
+                        <li>テキストクエリ、商品、ショップ、カテゴリを提案する<strong>オートコンプリートシステム</strong>を設計・デプロイし、<strong>カート追加のコンバージョン率を5％向上</strong>。</li>
+                        <li>大規模な<strong>検索におけるユーザー行動分析</strong>を実施：ユーザー検索セッションのグラフを構築し、MLを使用してパターンを分析し、検索推薦とクエリ予測を改善。</li>
+                        <li><strong>カテゴリ予測</strong>のベースラインモデルを開発し、検索とナビゲーションの関連性向上に貢献。</li>
+                        <li><strong>検索品質評価</strong>のためのクラウドソーシングワークフローを管理し、継続的な改善サイクルを実現。</li>
+                        <li>検索関連のML実験のために<strong>Apache Airflow</strong>を使用した自動化された<strong>データ収集と処理パイプライン</strong>を構築。</li>
+                    </ul>
+
+                    <p><strong>需要予測・価格設定チーム（2022年8月 – 2022年12月）</strong></p>
+                    <ul>
+                        <li><strong>SKUレベルの需要予測システム</strong>を設計・デプロイし、以前のアプローチと比較して予測品質を<strong>23％向上</strong>。</li>
+                        <li>予測に基づく<strong>倉庫補充システム</strong>の開発を監督し、在庫可用性と顧客満足度を向上。</li>
+                    </ul>
+
+                    <p><strong>コンテンツモデレーションチーム（2022年5月 – 2022年12月）</strong></p>
+                    <ul>
+                        <li>商品レビュー用の<strong>MLベースの自動モデレーションシステム</strong>をゼロから構築し、手動モデレーション時間を<strong>85％削減</strong>。</li>
+                        <li>インターン採用のための約<strong>30回の面接</strong>を実施し、インターンとジュニアMLエンジニアのメンタリングを担当。</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <img src="assets/logos/stanford.png" alt="Stanford University" class="company-logo">
+                        <div>
+                            <h3>リモート研究インターン（コンピュータビジョン・感情コンピューティング）</h3>
+                            <p class="company">Stanford University</p>
+                            <p class="period">リモート | 2020年12月 – 2021年10月</p>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><strong>ArtEmis</strong>データセットを活用し、<strong>感情的な言語とラベルを使用して視覚芸術の生成を制御する</strong>モデルを開発。</li>
+                        <li><strong>StyleGAN2</strong>と潜在空間への投影ネットワークを訓練し、高品質な画像を生成。</li>
+                        <li>感情ラベルに基づく<strong>SVMクラス分類器</strong>を訓練し、その決定境界を使用して生成画像の感情特性を制御。</li>
+                        <li>GAN、分類器、感情ラベルを組み合わせた<strong>感情条件付き画像生成</strong>の新しい手法を提案。</li>
+                    </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <img src="assets/logos/roadar.png" alt="RoadAR" class="company-logo">
+                        <div>
+                            <h3>コンピュータビジョンエンジニア</h3>
+                            <p class="company">RoadAR, Inc.</p>
+                            <p class="period">インノポリス、ロシア | 2020年6月 – 2021年2月</p>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><strong>交通事故検出</strong>のためのデータ収集とアノテーションを行い、高速道路監視システムに貢献。</li>
+                        <li><strong>交通渋滞検出、物体追跡、歩行者の道路上検出</strong>のモデルを開発し、全体的な安全監視能力を向上。</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="timeline">
+                <h2>学歴</h2>
+
+                <div class="timeline-item">
+                    <div class="timeline-header">
+                        <img src="assets/logos/innopolis.png" alt="Innopolis University" class="company-logo">
+                        <div>
+                            <h3>コンピュータサイエンス学士</h3>
+                            <p class="company">Innopolis University</p>
+                            <p class="period">タタルスタン共和国、ロシア | 2017年8月 – 2021年8月</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="publications">
+                <h2>論文</h2>
+
+                <div class="publication-item">
+                    <p><strong>ruBTS: Russian Sentence Simplification Using Back-Translation</strong> — バックトランスレーション技術を使用したロシア語NLP文の簡略化に関する研究。</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>最終更新: 2025年11月</p>
+        </footer>
+    </div>
+
+    <script>
+        // Email obfuscation using ROT13
+        function revealEmail() {
+            // f.galeev@innopolis.ru encoded in ROT13
+            var encoded = "s.tnyrri@vaabcbyvf.eh";
+            var decoded = encoded.replace(/[a-zA-Z]/g, function(c){
+                return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
+            });
+            var emailLink = document.getElementById('email-link');
+            emailLink.href = 'mailto:' + decoded;
+            emailLink.innerHTML = decoded;
+            emailLink.onclick = null;
+        }
+    </script>
+</body>
+</html>
